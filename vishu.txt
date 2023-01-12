@@ -1,0 +1,58 @@
+Website:-group of World Wide Web pages
+
+Domain:-a domain name is a string that identifies a 
+real of administrative 
+
+WWW:- (sub domain name)The World Wide Web -- also known as the web, WWW or W3 --
+refers to all the public websites or pages that users can 
+access on their local computers and other
+devices through the internet.
+
+HTTP:- Hypertext Transfer Protocol
+HTTPS:-Hypertext Transfer Protocol Secure
+
+Domain:- Domain name management is the process of securing a domain 
+portfolio from external threats and making sure all domain names have current registration.
+Domain owners need to be able to renew registration 
+and access the hosting provider.
+
+URL(Uniform Resource Locators):-URL is an acronym for Uniform Resource Locator and is 
+a reference (an address) to a resource on the Internet. A URL has two main components:
+Protocol identifier: For the URL http://example.com , the protocol identifier is http . 
+Resource name: For the URL http://example.com , the resource name is example.com 
+
+URI(Uniform Resource Identifier):-A Uniform Resource Identifier 
+is a unique sequence of characters that identifies a logical or 
+physical resource used by web technologies.
+
+URN(Uniform Resource Name):-Your inspection report will be listed on the website using your
+Ofsted registration number (URN).
+
+Client Server:Client-server denotes a relationship 
+between cooperating programs in an application,
+composed of clients initiating requests for services and 
+servers providing that function or service.
+
+Host:A network host is a computer or other device connected to a 
+computer network. A host may work as a server offering information resources, 
+services, and applications to users or other hosts on the network.
+
+Hosting:A web hosting service is a type of Internet hosting service that
+hosts websites for clients, i.e. it offers the facilities required 
+for them to create and maintain a site and makes it accessible on the World Wide Web.
+
+FTP:The File Transfer Protocol is a standard communication protocol 
+used for the transfer of computer files from a server to a client on a
+computer network. FTP is built on a client–server model
+architecture using separate control and data connections between the 
+client and the server.	
+																					
+Extensions:Extensions tell your computer which application created or can open the file 
+
+Path:file name
+
+Editor/vscode:
+
+Address bar:search box
+
+Title bar:navbar 
