@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <style>
+        header {
+            height: 103px;
+        }
+
+        .bannerimage {
+            height: auto;
+            background-image: url(img1.jpg);
+        }
+
+        .sellah {
+            width: 200px;
+            margin-top: 25px;
+        }
+
+        .us {
+            margin-left: 70px;
+            margin-top: 25px;
+            width: 40px;
+            height: 20px;
+        }
+
+        .sa {
+            margin-left: 120px;
+            margin-top: -42px;
+            width: 40px;
+            height: 20px;
+        }
+
+        .number {
+            margin-left: 40px;
+            margin-top: 15px;
+            color: #fff;
+        }
+
+        .title {
+            margin-top: 20px;
+            height: 44px;
+            background-color: #459115;
+            line-height: 44px;
+            border-radius: 5px;
+        }
+
+
+
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 0px 0px 0px 20px;
+        }
+
+
+        a {
+            color: #fff;
+        }
+
+        .borderright {
+            border-right: 1px groove #fff;
+            padding-right: 20px;
+        }
+
+        .boxingborder {
+            margin: 15px;
+            border-top: groove 1px;
+            margin-top: 0px;
+        }
+
+        .hm {
+            margin-top: 10px;
+        }
+
+        .foot {
+            text-align: center;
+        }
+
+        .textwhite {
+            color: #fff;
+
+        }
+
+        .textmr {
+            margin-left: 10px;
+        }
+
+        .sellahpadding {
+            padding: 0px;
+        }
+
+        .whitebox {
+            background-color: #fff;
+        }
+
+        strong {
+            margin: 15px;
+        }
+
+        .arrow {
+            padding-left: 10px;
+        }
+
+        .SaUsimg {
+            border: 2px solid #fff;
+        }
+
+        .fontsize {
+            font-size: 19px;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 768px) {
+            .tablet {
+                padding: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .photosize {
+                display: none !important;
+            }
+        }
+
+        @media only screen and (max-width: 986px) {
+            .textflex {
+                display: flex !important;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .usphotosize {
+                margin: 25px 0px 0px 0px;
+                width: 100px !important;
+                height: 40px;
+                font-size: 40px;
+                margin-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .number {
+                margin-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .email {
+                margin: 0px 0px 0px 0px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 987px) {
+            .tabletmargin {
+                margin-top: 300px !important;
+            }
+        }
+
+        @media only screen and (min-width: 765px) and (max-width: 987px) {
+            .tabmargin {
+                margin-top: 140px !important;
+            }
+        }
+
+        @media only screen and (min-width: 765px) and (max-width: 987px) {
+            .tamargin {
+                margin-top: 155px !important;
+            }
+        }
+
+        @media only screen and (min-width: 986px) and (max-width: 1200px) {
+            .mtab {
+                margin-top: 24px !important;
+            }
+        }
+
+        @media only screen and (min-width: 986px) and (max-width: 1200px) {
+            .ftab {
+                margin-top: 43px !important;
+            }
+        }
+
+        @media only screen and (min-width: 986px) and (max-width: 1200px) {
+            .ltab {
+                margin-top: 131px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 986px) {
+            .sapic {
+                margin-left: 50px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 986px) {
+            .uspic {
+                margin-left: 5px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 986px) {
+            .ussanumber {
+                margin-left: -5px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
+            .Vsapic {
+                margin-left: 90px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
+            .Vuspic {
+                margin-left: 45px !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1200px) {
+            .Vussanumber {
+                margin-left: 30px !important;
+            }
+        }
+    </style>
+</head>
+<header>
+
+    <body class="bannerimage ">
+        <div class="container ">
+            <div class="row">
+
+
+                <div class="col-sm-10 ">
+                    <img class="sellah sellahsize" src="sellah.jpg">
+                </div>
+                <div class="col-sm-2">
+                    <img class=" us usphotosize uspic Vuspic SaUsimg" src="us.jpg">
+                    <img class="sa usphotosize sapic Vsapic SaUsimg" src="sa.jpg">
+                    <div class="number ussanumber Vussanumber"> call us:9090887745</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div class="title">
+                      
+                        <ul class="photosize">
+                            <li class="borderright">
+                                <a>home</a>
+                            </li>
+                            <li class="borderright">
+                                <a>About Us</a>
+                            </li>
+                            <li class="borderright">
+                                <a>Services</a>
+                            </li>
+                            <li class="borderright">
+                                <a>Technologies</a>
+                            </li>
+                            <li class="borderright">
+                                <a>Protfolio</a>
+                            </li>
+                            <li>
+                                <a>Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <img class="earth" src="earth.jpg" style="width:100%; height: 400px;">
+                </div>
+            </div>
+            <div class="row" style="background-color: #fff; margin: 0px; border-radius: 5px;">
+                <div class="  col-sm-3  hm">
+                    <strong class="fontsize">Why <span style="color: #459115;">Sellah?</span></strong>
+                    <div class=" boxingborder">
+                        <p class="hm">Lorem
+                            Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type
+                        <p>and scrambled it to make a type specimen book.
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an the
+                            when an the when an
+                        </p>
+
+                        <div class="ftab" style="border-bottom: 1px groove ;margin: 20px 0px 5px 0px;"> </div>
+                        <span class="glyphicon glyphicon-circle-arrow-right">
+                        </span><a href="read more" style="color: rgb(12, 64, 99);margin-left: 10px;">read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="  col-sm-3  hm">
+                    <strong class="fontsize">Why <span style="color: #459115;">Sellah?</span></strong>
+                    <div class="boxingborder">
+                        <div class="row textflex">
+                            <div class="col-sm-2 ">
+                                <span class="glyphicon glyphicon-arrow-right hm arrow tablet"></span>
+                            </div>
+                            <div class="col-sm-10 sellahpadding">
+                                <p class="hm ">Lorem Ipsum is
+                                    simply dummy
+                                    text of the
+                                    printing and typesetting industry.
+                                    Lorem</p>
+                            </div>
+                        </div>
+                        <div class="row textflex">
+                            <div class="col-sm-2 ">
+                                <span class="glyphicon glyphicon-arrow-right hm arrow tablet"></span>
+                            </div>
+                            <div class="col-sm-10 sellahpadding">
+                                <p class="hm ">Lorem Ipsum is
+                                    simply dummy
+                                    text of the
+                                    printing and typesetting industry.
+                                    Lorem</p>
+                            </div>
+                        </div>
+                        <div class="row textflex">
+                            <div class="col-sm-2 ">
+                                <span class="glyphicon glyphicon-arrow-right hm arrow tablet"></span>
+                            </div>
+                            <div class="col-sm-10 sellahpadding">
+                                <p class="hm ">Lorem Ipsum is
+                                    simply dummy
+                                    text of the
+                                    printing and typesetting industry.
+                                    Lorem</p>
+                            </div>
+                        </div>
+                        <div class="row textflex">
+                            <div class="col-sm-2 ">
+                                <span class="glyphicon glyphicon-arrow-right hm arrow tablet"></span>
+                            </div>
+                            <div class="col-sm-10 sellahpadding">
+                                <p class="hm ">Lorem Ipsum is
+                                    simply dummy
+                                    text of the
+                                    printing and typesetting industry.
+                                    Lorem</p>
+                            </div>
+                        </div>
+
+                        <div class="tabmargin mtab" style="border-bottom: 1px groove ; margin: 0px 0px 5px 0px;"> </div>
+                        <span class="glyphicon glyphicon-circle-arrow-right">
+                        </span><a href="read more" style="color: rgb(12, 64, 99);margin-left: 10px;">read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class=" col-sm-3  hm">
+                    <strong class="fontsize">What We <span style="color: #459115;">Serve?</span></strong>
+                    <div class=" boxingborder">
+                        <p class="hm">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                            Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+
+
+                        <p><span class="glyphicon glyphicon-arrow-right ;">
+                                Ipsum is simply dummy
+                            </span></p>
+                        <div style="border-bottom: 1px dotted ;"> </div>
+                        <p><span class="glyphicon glyphicon-arrow-right ;">
+                                Ipsum is simply dummy
+                            </span></p>
+                        <div style="border-bottom: 1px dotted ;"> </div>
+                        <p><span class="glyphicon glyphicon-arrow-right ;">
+                                Ipsum is simply dummy
+                            </span></p>
+                        <div style="border-bottom: 1px dotted ;"> </div>
+                        <p><span class="glyphicon glyphicon-arrow-right ;">
+                                Ipsum is simply dummy
+                            </span></p>
+                        <div style="border-bottom: 1px dotted ;"> </div>
+                        <p><span class="glyphicon glyphicon-arrow-right ;">
+                                Ipsum is simply dummy
+                            </span></p>
+                        <div style="border-bottom: 1px dotted ;"> </div>
+                        <div class="tamargin" style="border-bottom: 1px groove ;margin: 45px 0px 5px 0px;"> </div>
+                        <span class="glyphicon glyphicon-circle-arrow-right">
+                        </span><a href="read more" style="color: rgb(46, 14, 165); margin-left: 10px;">read more</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 hm ">
+                    <strong class="fontsize">Request For <span style="color: #459115;">Quote</span></strong>
+                    <div class="boxingborder email">
+                        <div class="form-group" style="margin: 0px;">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Your Name">
+                            <small id="emailHelp" class="form-text text-muted">
+                            </small>
+
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Phone" style="margin-top: 5px;">
+                            <small id="emailHelp" class="form-text text-muted">
+                            </small>
+
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="email" style="margin-top: 5px;">
+                            <small id="emailHelp" class="form-text text-muted">
+                            </small>
+                            <form style="margin-top: 5px;">
+                                <textarea rows="6" cols="30">
+                                </textarea>
+                                <br>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                        <div class="tabletmargin ltab" style="border-bottom: 1px groove ; margin: 26px 0px 5px 0px ;">
+                        </div>
+
+
+                        info @ gmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot" style="color: #fff;">Home | Aboutus | Products | Services | Contact Us <br> Copyright &#169
+            2022 Sellah.All
+            Right Reseverd</div>
+    </body>
+
+</header>
+
+</html>
+
+
+
+<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+</a> -->
