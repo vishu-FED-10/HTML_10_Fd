@@ -4,63 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="from.css">
     <title>Document</title>
 </head>
 <body>
-    <from>
-        <table>
-            <tr>
-                <td><label for="FirstName">Name :</label></td>
-                <td><input type="text" placeholder="FirstName" required></td>
-                <td><label for="LastName">LastName :</label></td>
-                <td><input type="text" placeholder="LastName"></td>
-            </tr>
-            <tr>
-                <td><label for="Addres">Addres :</label></td>
-                <td><input type="text" placeholder="Addres"></td>
-                <td><label for="Flat">Flat.no :</label></td>
-                <td><input type="text" placeholder="Flat no :"></td>
-            </tr>
-            <tr>
-                <td><label for="gender">gender :</label></td>
-                <td><input type="radio" name="gen">Male<input type="radio" name="gen">Female</td>
-            </tr>
-            <tr>
-                <td><label for="City">City :</label></td>
-                <td><select name="City">
-                    <option>Vadodra</option>
-                    <option>Godhra</option>
-                    <option>Modasa</option>
-                    <option>lUNAWADA</option>
-                </select></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-    </from>
+    <div class="box">
+        <h3>Registration Form</h3>
+    <form>
+    <div>First Name:
+        <input type="text" placeholder="First Name">
+    </div>
+    <div>Last Name:
+        <input type="text" placeholder="Last Name">
+    </div>
+    <div>Email:
+        <input type="email" placeholder="Email">
+    </div>
+    <div>Mobile:
+        <input type="number" placeholder="Mobile">
+    </div>
+    <div>Gender:
+       <input type="radio" name="gender" placeholder="">Male
+       <input type="radio" name="gender" placeholder="">Female
+    </div>
+    <div>Date of Birth:
+        <input type="date">
+    </div>
+    <div>Addres:
+      <textarea></textarea>
+    </div>
+    <div>City:
+        <input type="search">
+    </div>
+    <div>Area PIN:
+        <input type="text" class="vishu">
+    </div>
+    <div>State:
+        <input type="text" class="box1">
+    </div>
+    <div>qualification:
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+    <div>specification:
+        <input type="checkbox">computer science
+        <input type="checkbox">information technology
+        <input type="checkbox">computer engineering
+        <input type="checkbox">engineering
+     </div>
+     <div>Password:
+        <input type="Password">
+    </div>
+    <button type="submit">registration</button>
+</form>
+</div>
 </body>
 </html>
