@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY BASIC,EFFECTS & ADVANCED</title>
+</head>
+
+<body style="border:4px groove grey; border-radius: 20px;">
+    <h1
+        style="text-align: center;border:4px groove grey; background-color: rgb(58, 116, 240);  margin: 0px; border-left: 0px; border-right: 0px; border-top: 0px; border-radius:20px ; height: 50px;">
+        JQUERY BASIC,EFFECTS & ADVANCED
+    </h1>
+    <br>
+    <div style="padding: 10px;">
+        <h3>Q-1 What is jQuery? </h3>
+        <p> <b> ANS::</b> jQuery is a lightweight, "write less, do more", JavaScript library.<br> <br>
+
+            The purpose of jQuery is to make it much easier to use JavaScript on your website.<br><br>
+
+            jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them
+            into methods that you can call with a single line of code.<br> <br>
+
+            jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM
+            manipulation.<br>
+        <h4> The jQuery library contains the following features:</h4>
+        <li> HTML/DOM manipulation <br></li>
+        <li> CSS manipulation<br></li>
+        <li>event methods<br></li>
+        <li> Effects and animations<br></li>
+        <li> AJAX<br></li>
+        <li> Utilities<br></li>
+        </li>
+        </p>
+        <hr>
+        <h3>Q-2 How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+            JQuery Animation? </h3>
+        <p>
+            <b> ANS::</b> The css() method sets or returns one or more style properties for the selected elements.<br>
+            <li> To set a specified CSS property, use the following syntax: <br> <br></li>
+
+            &nbsp; css("propertyname","value"); <br> <br>
+            <li> To return the value of a specified CSS property, use the following syntax:<br> <br></li>
+
+            &nbsp; css("propertyname"); <br> <br>
+            <li> The addClass() or removeClass() methods are used to add the CSS classes when there is a need to add to
+                our
+                webpage when there is some event listener or to create some kind of effect.<br> <br></li>
+            <li> In this article, let us see how can we add a CSS class or remove a CSS class in jQuery.<br> <br>
+            </li>
+            <b>Syntax:</b> <br> <br>
+
+            <li>Adding a class:<br></li>
+            $('selector').addClass(class_name);<br><br>
+            <li> Removing a class:<br></li>
+            $('selector').removeClass(class_name);<br> <br>
+            <b> JQuery Animation</b><br><br>
+            <li> The required params parameter defines the CSS properties to be animated.</li><br>
+            <li> The optional speed parameter specifies the duration of the effect. It can take the following values:
+                "slow", "fast", or milliseconds.
+            </li><br>
+            <li> The optional callback parameter is a function to be executed after the animation completes.</li><br>
+            <li> The following example demonstrates a simple use of the animate() method; it moves a div element to the
+                right, until it has reached a left property of 250px:</li><br>
+            <li> The jQuery animate() method is used to create custom animations.<br><br> </li>
+
+            <b> Syntax:</b> <br> <br>
+
+            <li> $(selector).animate({params},speed,callback);</li>
+        </p>
+        <hr>
+        <h3>Q-3 How to create slider with animation? </h3>
+        <p> <b> ANS::</b> Following are the ways to create slider with animation.<br> <br>
+            <b>Table of Contents:</b><br>
+
+            <li>Step 1: Come up with a strategy for the slider</li><br>
+            <li> Step 2: Update the background image in each slide</li><br>
+            <li>Step 3: Update the text layers in each slide</li><br>
+            <li>Step 4: Edit the button text and design in each slide</li><br>
+            <li> Step 5: Edit the slider navigation</li><br>
+
+            <b> To make a slide animation, the basic steps are:</b><br><br>
+            <b>1.</b> Create the HTML with a container div and the slider div.<br><br>
+            <b>2.</b>In the CSS, set the slider to be offscreen by setting it with a negative left (eg -100px)<br><br>
+            <b>3.</b>We then trigger the slide by using transition CSS property and set the left to be 0px;<br><br>
+            </li><br>
+            <b>Slide up animation</b><br> <br>
+            <li>To do a slide up animation, we just need to have the code to set the initial position bottom as
+                negative. When a mouse hovers over the element, we set the bottom to be zero.</li><br> <br>
+            <b>Slide left to right animation</b> <br><br>
+            <li>To do a slide left to right animation, we set the starting position of the element to have a negative
+                left property (eg -100px). Then when the user hovers over the element, we change that to zero. This
+                gives the sliding effect.</li>
+
+
+        </p>
+        <hr>
+    </div>
+</body>
+
+</html>
