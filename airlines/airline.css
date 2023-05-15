@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+
+}
+
+.container {
+    height: 8em;
+    background-color: rgba(0, 0, 0, 0.833);
+}
+
+.container div span a {
+    color: rgba(56, 146, 231, 0.84);
+}
+
+.container div {
+    padding: 2%;
+    margin-left: 15%;
+}
+
+.box1 {
+    margin-left: -30px;
+    color: rgba(213, 203, 203, 0.756);
+    font: 300% Arial, sans-serif;
+}
+
+.box2 {
+    margin-left: -30px;
+    font: 128% Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(213, 203, 203);
+}
+
+.material-symbols-outlined {
+    color: rgba(240, 248, 255, 0.689);
+    margin-right: 15.3%;
+    float: right;
+    font-size: 0.9em;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+menu {
+    float: right;
+    margin: 0;
+    padding: 0 14% 0 0;
+    font: 100% Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.container div menu a {
+    padding: 0.9em;
+    text-decoration: none;
+    color: rgba(213, 203, 203, 0.76);
+}
+
+.container div menu a:hover {
+    background-color: black;
+}
+
+.box15 img {
+    height: 400px;
+}
+
+.box15 span {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    width: 310px;
+    margin-left: 230px;
+    margin-top: 140px;
+    font-size: 30px;
+    color: white;
+}
+
+.box15 li {
+    font-weight: bold;
+}
+
+.box15 ul {
+    margin-left: 40px;
+}
+
+.box15 td {
+    line-height: 22px;
+    padding-top: 70px;
+    font-size: 15px;
+}
+
+.slideshow-container {
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+.ribbon-wrapper {
+    width: 175px;
+    position: relative;
+    top: -45px;
+    left: 225px;
+    margin-bottom: -91px;
+    display: flex;
+}
+
+.ribbon {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font: 10px Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 125px;
+    background-color: rgba(18, 17, 17, 0.801);
+    color: rgba(213, 203, 203, 0.76);
+    text-transform: uppercase;
+    height: 10px;
+    border-right: 1px solid rgba(139, 132, 132, 0.396);
+}
+
+.ribbon1 {
+    font: 30px Arial, sans-serif;
+    text-align: center;
+    padding: 15.5px;
+    background-color: rgba(17, 15, 15, 0.785);
+    color: black;
+    text-transform: uppercase;
+    margin-left: 141px;
+    border-left: 3px solid;
+    margin-top: 3px;
+}
+
+aside {
+    display: flex;
+}
+
+.boxnew {
+    background-color: rgba(237, 236, 236, 0.884);
+    height: 730px;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 39px;
+}
+
+.box9 i {
+    width: 20px;
+    height: 30px;
+    background-color: rgba(18, 17, 17, 0.801);
+    color: aliceblue;
+    border-top-Right-radius: 3px;
+    border-bottom-Right-radius: 3px;
+}
+
+.fa-angle-right:before {
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.box10 input {
+    margin-top: 20px;
+}
+
+.box12 label {
+    color: rgba(0, 0, 0, 0.541);
+    font-weight: 300;
+    font-family: Arial;
+}
+
+.box12 {
+    margin-left: 50px;
+}
+
+.box12 h1 {
+    color: rgba(0, 0, 0, 0.655);
+    padding-top: 40px;
+    font-weight: 300;
+    font-family: Arial;
+}
+
+.box13 {
+    margin-left: 10px;
+}
+
+.box14 {
+    margin-left: 23px;
+}
+
+.box16 {
+    margin-top: 20px;
+}
+
+.box17 {
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.536);
+    padding-left: 10px;
+}
+
+:-ms-input-placeholder {
+    color: rgba(128, 128, 128, 0.536);
+    padding-left: 10px;
+}
+
+::-ms-input-placeholder {
+    color: rgba(128, 128, 128, 0.536);
+    padding-left: 10px;
+}
+
+.box17 button {
+    margin-left: 38px;
+    background-color: #1297b2d8;
+    border-radius: 3.9px;
+    width: 25%;
+    height: 30px;
+    border: none;
+}
+
+.box18 {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+    margin-right: 50px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.box18 p {
+    margin-bottom: 20px;
+}
+
+.box18 span {
+    color: #00B4D8;
+}
+
+.box20 {
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 633px;
+}
+
+.box20 h1 {
+    color: rgba(0, 0, 0, 0.655);
+    font-weight: 300;
+    font-family: Arial;
+}
+
+.box21 {
+    color: #00B4D8;
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+.box20 p {
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+.box20 .mty {
+    font-family: Arial;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.box20 .mty::before {
+    color: #108ba3;
+    content: "\2022";
+    font-weight: bolder;
+    display: inline-block;
+    width: 0.7em
+}
+
+.btnbox0 {
+    margin-top: 10px;
+    height: 30px;
+    width: 16%;
+    float: right;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.833);
+    color: white;
+    border: none;
+}
+
+.box22 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.btnbox {
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    width: 18%;
+    float: right;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.833);
+    color: white;
+}
+
+.btnbox1 {
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 13%;
+    float: right;
+    border-radius: 3px;
+    background-color: #108ba3;
+    color: white;
+}
+
+.box23 {
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 205px;
+    float: right;
+    width: 33%;
+    background-color: #108aa3b9;
+}
+
+.box23 p {
+    width: 177px;
+    font-size: 13px;
+    line-height: 22px;
+    color: white;
+    padding-left: 20px;
+}
+
+.nbox {
+    margin-top: 10px;
+    float: right;
+}
+
+.box24 {
+    float: left;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.tlink {
+    color: #00B4D8;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.833);
+    height: 8em;
+    margin-top: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+.box25 a {
+    font-family: Arial;
+    color: white;
+}
+
+.box25 {
+    padding: 50px;
+    float: left;
+}
+
+.box26 a {
+    color: white;
+}
+
+.box26 {
+    padding: 50px;
+    float: right;
+}
